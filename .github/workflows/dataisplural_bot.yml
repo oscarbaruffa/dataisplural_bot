@@ -23,7 +23,7 @@ jobs:
       - name: Create and post tweet
         run: Rscript tweet_bot.R
         env:
-          CONSUMER_API_KEY: ${{ secrets.CONSUMER_API_KEY }}
-          CONSUMER_API_SECRET: ${{ secrets.CONSUMER_API_SECRET }}
+          CONSUMER_API_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_API_SECRET: ${{ secrets.CONSUMER_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_SECRET }}
