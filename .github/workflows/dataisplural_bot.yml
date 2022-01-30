@@ -1,10 +1,10 @@
 name: dataisplural_bot
 on:
-  # schedule:
-  #   - cron: '0 */3 * * *'
-  push:
-   branches:
-     - main
+  schedule:
+    - cron: '0 */2 * * *'
+  # push:
+  #  branches:
+  #    - main
 jobs:
   dataisplural_bot-post:
     runs-on: macOS-latest
