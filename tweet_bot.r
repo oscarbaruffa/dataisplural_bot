@@ -39,7 +39,7 @@ entry$edition_url
 
 # Create the tweet --------------------------------------------------------
 
-tweet_status <- paste(entry$headline, entry$edition_url, "#opendata" ,  sep= "\n")
+tweet_status <- paste(entry$headline, entry$edition_url, "#OpenData" ,  sep= "\n")
 tweet_status
 
 
